@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "WorkshopSweden - Hem";
+}
+<div class="div-outer-margin">
+    <div class="col-xs-12 col-sm-12 col-md-3 noPadding">
+        <div class="div-home">
+            <h2 class="home-text">Välkommen!</h2>
+            <p class="home-text">Workshop Sweden är experter på arbetsmetoder för utveckling.
+            Vi skapar kreativa utrymmen som förvandlar dina idéer till resultat.</p>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-9 noPadding">
+        <div class="div-outer-align">
+            <div id="carouselIndex" class="carousel slide carousel-background">
+                <div class="carousel-inner">
+                   <div class="item active">
+                        <h2 class="imgFrontText1">Utveckla ditt ledarskap! Med coaching blir du framgångsrik i din egen förändringsprocess.</h2>
+                        @*<img class="img-front-responsive" src="~/Content/img/startPage/text1.png" alt="...">*@
+                    </div>
+                    <div class="item">
+                        <h2 class="imgFrontText2">Workshop Sweden skapar hållbara strukturer som för ditt förändringsarbete framåt.</h2>
+                        @*<img class="img-front-responsive" src="~/Content/img/startPage/text2.png" alt="...">*@
+                    </div>
+                    <div class="item">
+                        <h2 class="imgFrontText3">Vi är din partner på resan mot dina mål.</h2>
+                        @*<img class="img-front-responsive" src="~/Content/img/startPage/text3.png" alt="...">*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

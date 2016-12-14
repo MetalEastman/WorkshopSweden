@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="IdaHille" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Metal\\Documents\\Newton\\Enterprise\ 2015\\WebSiteProject\\WebSiteProject\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Metal\\Documents\\Newton\\Enterprise\ 2015\\WebSiteProject\\WebSiteProject\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>

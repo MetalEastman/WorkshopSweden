@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-own">
+        <div class="container-fluid">
+            <div class="row nav-top navbar-padding">
+                
+                <div class="nav-inner">
+                    <div class="nav-inner-title">
+                        <a class="navbar-brand navbar-title-link" href="@Url.Action("Index", "Home")"><span class="navbar-title-top">Workshop</span></a>
+                        @*@Html.ActionLink("W", "Index", "Home", new { area = "" }, new { @class = "navbar-brand navbar-title-W navbar-title-top" })
+                            @Html.ActionLink("orkshop", "Index", "Home", new { area = "" }, new { @class = "navbar-brand navbar-title-top" })*@
+                        <a class="navbar-brand navbar-title-link" href="@Url.Action("Index", "Home")"><span class="navbar-title-top">Sweden</span></a>
+                        @*@Html.ActionLink("S", "Index", "Home", new { area = "" }, new { @class = "navbar-brand navbar-title-top" })
+                            @Html.ActionLink("w", "Index", "Home", new { area = "" }, new { @class = "navbar-brand navbar-title-W navbar-title-top navbar-title-margin" })
+                            @Html.ActionLink("eden", "Index", "Home", new { area = "" }, new { @class = "navbar-brand navbar-title-top navbar-title-margin" })*@
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar, #navbar1" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="navbar" class="navbar-collapse collapse navbar-right">
+                        <div class="row">
+                            <ul class="nav navbar-nav nav-content-align">
+                                <li><a id="a-padding1" class="nav-li-top" href="@Url.Action("Index", "About")">OM OSS</a></li>
+                                <li><a id="a-padding2" class="nav-li-top" href="@Url.Action("Index", "Contact")">KONTAKT</a></li>
+                                <li><a id="a-padding7" class="nav-li-top" href="@Url.Action("Index", "English")">ENGLISH</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row nav-bottom navbar-padding">
+                <div class="nav-inner">
+                    <div id="navbar1" class="navbar-collapse collapse navbar-right">
+                        <div class="row nav-content-align">
+                            <ul class="nav navbar-nav">
+                                <li><a id="a-padding3" class="nav-li" href="@Url.Action("Index", "Workshop")">Workshop</a></li>
+                                <li><a id="a-padding4" class="nav-li" href="@Url.Action("Index", "Coaching")">Coaching</a></li>
+                                <li><a id="a-padding5" class="nav-li" href="@Url.Action("Index", "Pln")">Projektledarnätverk</a></li>
+                                <li><a id="a-padding6" class="nav-li" href="@Url.Action("Index", "Education")">Projektutbildning</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="body-content">
+        @RenderBody()
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

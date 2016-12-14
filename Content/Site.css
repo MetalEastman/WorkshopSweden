@@ -1,0 +1,296 @@
+﻿body {
+    background-color: #ffffff;
+    font-family: Ethos-Regular, 'Century Gothic', Arial, sans-serif !important;
+    /*padding-top: 20px;*/
+    padding-bottom: 20px;
+    /*padding-left: 10px;
+    padding-right: 10px;*/
+}
+
+@media screen and (max-width: 1120px) {
+    p.home-text {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    div.div-home {
+        height: auto;
+    }
+
+    h2.imgFrontText1, h2.imgFrontText2, h2.imgFrontText3 {
+        margin-top: 150px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    a.navbar-title-link{
+        padding-top: 15px;
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+
+    div.nav-top {
+        padding-top: 0px;
+    }
+
+    div.navbar-padding {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    a#a-padding1, a#a-padding2, a#a-padding3, a#a-padding4, a#a-padding5, a#a-padding6, a#a-padding7 {
+        padding-left: 0px;
+
+    }
+
+    a.navbar-title-top{
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+    a.navbar-title-bottom{
+        padding-left: 0px;
+    }
+
+    div.navbar-right{
+        border-top: none;
+    }
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.div-inner {
+    width: 720px;
+    margin: auto;
+}
+
+.div-outer-margin {
+    margin-top: 30px;
+    height: auto;
+}
+
+.div-home {
+    background-color: #F5F5F5 !important;
+    padding: 30px;
+    height: 400px;
+}
+
+.home-text-title {
+    color: #1D4971 !important;
+}
+
+
+.home-text {
+    color: #2A2A2B !important;
+    font-size: 24px;
+}
+
+.imgFrontText1 {
+    color: white;
+    margin-top: 180px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.imgFrontText2 {
+    color: white;
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.imgFrontText3 {
+    color: white;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.noPadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.div-outer-align {
+    height: 400px;
+    /*text-align: center;*/
+}
+
+.img-front-responsive {
+    /*max-width:100% !important;
+   height:auto;
+   display:block;*/
+}
+
+.carousel-background {
+    background: url("img/startPage/bg_1_1.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 100%;
+    height: 100%;
+    display: block;
+    
+}
+
+.img-profilepic {
+    /*height: 300px;*/
+}
+
+    .img-profilepic:hover {
+        -moz-box-shadow: 0 0 20px #ccc;
+        -webkit-box-shadow: 0 0 20px #ccc;
+        box-shadow: 0 0 20px #ccc;
+    }
+
+.img-halfSizeProfilePic {
+    width: auto;
+    height: auto;
+    max-height: 500px;
+}
+
+.div-standard {
+    width: auto;
+    overflow: auto;
+}
+
+.div-centerAlign {
+    text-align: center;
+}
+
+.div-aboutText {
+    width: 500px;
+    height: 300px;
+}
+
+.div-aboutPhotos {
+    width: 600px;
+    height: 300px;
+}
+
+.div-profileText {
+    width: 400px;
+    overflow: auto;
+}
+
+.img-stockSchool {
+    width: 400px;
+    height: 300px;
+}
+
+.googleMap {
+    width: 400px;
+    height: 300px;
+}
+
+.nav-content-align {
+    float: right;
+    text-align: right;
+    width: auto;
+}
+
+#a-padding, #a-padding1, #a-padding2, #a-padding3, #a-padding4, #a-padding5, #a-padding6, #a-padding7 {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.h4Link {
+    color: grey;
+}
+
+    .h4Link:hover {
+        color: black;
+        text-decoration: none !important;
+    }
+
+.nav-li-top {
+    color: #ffffff !important;
+}
+
+    .nav-li-top:hover {
+        color: black !important;
+    }
+
+.nav-li {
+    color: white !important;
+}
+
+    .nav-li:hover {
+        color: grey !important;
+    }
+
+.nav-top {
+    padding-top: 15px;
+    background-color: #275D90 !important;
+}
+
+.nav-bottom {
+    background-color: #1D4971 !important;
+    
+}
+
+.navbar-own {
+    background-color: #275D90;
+    border: none;
+}
+
+.navbar-padding {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-title-W{
+    font-style:italic;
+}
+
+.navbar-title-link{
+    color: #ffffff !important;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: inherit;
+    font-size: x-large;
+}
+
+.navbar-title-top {
+    padding: 5px 0px 5px 0px;
+    height: inherit;
+    font-size: x-large;
+}
+
+.navbar-title-margin{
+        margin-left: 15px !important;
+}
+
+/*.navbar-title-bottom {
+    padding: 5px 0px 5px 0px;
+    margin-left: 15px !important;
+    height: inherit;
+    font-size: x-large;
+    color: black !important;
+}*/
+
+.nav-inner {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
