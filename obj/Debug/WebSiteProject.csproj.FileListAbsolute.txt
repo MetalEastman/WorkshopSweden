@@ -50,3 +50,29 @@ C:\Users\Metal\Documents\Newton\Enterprise 2015\WorkshopSweden\WebSiteProject\bi
 C:\Users\Metal\Documents\Newton\Enterprise 2015\WorkshopSweden\WebSiteProject\obj\Debug\WebSiteProject.csprojResolveAssemblyReference.cache
 C:\Users\Metal\Documents\Newton\Enterprise 2015\WorkshopSweden\WebSiteProject\obj\Debug\WebSiteProject.dll
 C:\Users\Metal\Documents\Newton\Enterprise 2015\WorkshopSweden\WebSiteProject\obj\Debug\WebSiteProject.pdb
+C:\Projects\WorkshopSweden\WebSiteProject\bin\WebSiteProject.dll.config
+C:\Projects\WorkshopSweden\WebSiteProject\bin\WebSiteProject.dll
+C:\Projects\WorkshopSweden\WebSiteProject\bin\WebSiteProject.pdb
+C:\Projects\WorkshopSweden\WebSiteProject\bin\Antlr3.Runtime.dll
+C:\Projects\WorkshopSweden\WebSiteProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\WorkshopSweden\WebSiteProject\bin\Newtonsoft.Json.dll
+C:\Projects\WorkshopSweden\WebSiteProject\bin\System.Web.Helpers.dll
+C:\Projects\WorkshopSweden\WebSiteProject\bin\System.Web.Mvc.dll
+C:\Projects\WorkshopSweden\WebSiteProject\bin\System.Web.Optimization.dll
+C:\Projects\WorkshopSweden\WebSiteProject\bin\System.Web.Razor.dll
+C:\Projects\WorkshopSweden\WebSiteProject\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\WorkshopSweden\WebSiteProject\bin\System.Web.WebPages.dll
+C:\Projects\WorkshopSweden\WebSiteProject\bin\System.Web.WebPages.Razor.dll
+C:\Projects\WorkshopSweden\WebSiteProject\bin\WebGrease.dll
+C:\Projects\WorkshopSweden\WebSiteProject\bin\System.Web.Helpers.xml
+C:\Projects\WorkshopSweden\WebSiteProject\bin\System.Web.Mvc.xml
+C:\Projects\WorkshopSweden\WebSiteProject\bin\System.Web.Optimization.xml
+C:\Projects\WorkshopSweden\WebSiteProject\bin\System.Web.Razor.xml
+C:\Projects\WorkshopSweden\WebSiteProject\bin\System.Web.WebPages.xml
+C:\Projects\WorkshopSweden\WebSiteProject\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\WorkshopSweden\WebSiteProject\bin\System.Web.WebPages.Razor.xml
+C:\Projects\WorkshopSweden\WebSiteProject\bin\Antlr3.Runtime.pdb
+C:\Projects\WorkshopSweden\WebSiteProject\bin\Newtonsoft.Json.xml
+C:\Projects\WorkshopSweden\WebSiteProject\obj\Debug\WebSiteProject.csprojResolveAssemblyReference.cache
+C:\Projects\WorkshopSweden\WebSiteProject\obj\Debug\WebSiteProject.dll
+C:\Projects\WorkshopSweden\WebSiteProject\obj\Debug\WebSiteProject.pdb
