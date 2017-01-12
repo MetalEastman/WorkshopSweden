@@ -50,3 +50,21 @@ C:\Users\Metal\Documents\Newton\Enterprise 2015\WorkshopSweden\WebSiteProject\bi
 C:\Users\Metal\Documents\Newton\Enterprise 2015\WorkshopSweden\WebSiteProject\obj\Release\WebSiteProject.csprojResolveAssemblyReference.cache
 C:\Users\Metal\Documents\Newton\Enterprise 2015\WorkshopSweden\WebSiteProject\obj\Release\WebSiteProject.dll
 C:\Users\Metal\Documents\Newton\Enterprise 2015\WorkshopSweden\WebSiteProject\obj\Release\WebSiteProject.pdb
+C:\Projects\WS\WorkshopSweden\bin\WebSiteProject.dll.config
+C:\Projects\WS\WorkshopSweden\bin\WebSiteProject.dll
+C:\Projects\WS\WorkshopSweden\bin\WebSiteProject.pdb
+C:\Projects\WS\WorkshopSweden\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\WS\WorkshopSweden\bin\Newtonsoft.Json.dll
+C:\Projects\WS\WorkshopSweden\bin\Microsoft.Web.Infrastructure.xml
+C:\Projects\WS\WorkshopSweden\bin\System.Web.Helpers.xml
+C:\Projects\WS\WorkshopSweden\bin\System.Web.Mvc.xml
+C:\Projects\WS\WorkshopSweden\bin\System.Web.Optimization.xml
+C:\Projects\WS\WorkshopSweden\bin\System.Web.Razor.xml
+C:\Projects\WS\WorkshopSweden\bin\System.Web.WebPages.xml
+C:\Projects\WS\WorkshopSweden\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\WS\WorkshopSweden\bin\System.Web.WebPages.Razor.xml
+C:\Projects\WS\WorkshopSweden\bin\Antlr3.Runtime.pdb
+C:\Projects\WS\WorkshopSweden\bin\Newtonsoft.Json.xml
+C:\Projects\WS\WorkshopSweden\obj\Release\WebSiteProject.csprojResolveAssemblyReference.cache
+C:\Projects\WS\WorkshopSweden\obj\Release\WebSiteProject.dll
+C:\Projects\WS\WorkshopSweden\obj\Release\WebSiteProject.pdb

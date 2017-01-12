@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
@@ -15,12 +16,7 @@
                 <div class="nav-inner">
                     <div class="nav-inner-title">
                         <a class="navbar-brand navbar-title-link" href="@Url.Action("Index", "Home")"><span class="navbar-title-top">Workshop</span></a>
-                        @*@Html.ActionLink("W", "Index", "Home", new { area = "" }, new { @class = "navbar-brand navbar-title-W navbar-title-top" })
-                            @Html.ActionLink("orkshop", "Index", "Home", new { area = "" }, new { @class = "navbar-brand navbar-title-top" })*@
                         <a class="navbar-brand navbar-title-link" href="@Url.Action("Index", "Home")"><span class="navbar-title-top">Sweden</span></a>
-                        @*@Html.ActionLink("S", "Index", "Home", new { area = "" }, new { @class = "navbar-brand navbar-title-top" })
-                            @Html.ActionLink("w", "Index", "Home", new { area = "" }, new { @class = "navbar-brand navbar-title-W navbar-title-top navbar-title-margin" })
-                            @Html.ActionLink("eden", "Index", "Home", new { area = "" }, new { @class = "navbar-brand navbar-title-top navbar-title-margin" })*@
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar, #navbar1" aria-expanded="false" aria-controls="navbar">
                                 <span class="sr-only">Toggle navigation</span>
@@ -50,7 +46,8 @@
                                 <li><a id="a-padding3" class="nav-li" href="@Url.Action("Index", "Workshop")">Workshop</a></li>
                                 <li><a id="a-padding4" class="nav-li" href="@Url.Action("Index", "Coaching")">Coaching</a></li>
                                 <li><a id="a-padding5" class="nav-li" href="@Url.Action("Index", "Pln")">Projektledarnätverk</a></li>
-                                <li><a id="a-padding6" class="nav-li" href="@Url.Action("Index", "Education")">Projektutbildning</a></li>
+                                <li><a id="a-padding6" class="nav-li" href="@Url.Action("Index", "Travel")">Projektresor</a></li>
+                                <li><a id="a-padding8" class="nav-li" href="@Url.Action("Index", "Education")">Projektutbildning</a></li>
                             </ul>
                         </div>
                     </div>
@@ -61,6 +58,20 @@
     <div class="body-content">
         @RenderBody()
     </div>
+    <footer class="footer">
+        <div class="footer-top"></div>
+        <div class="footer-bottom">
+            <span class="footer-title">Workshop Sweden</span>
+            <div class="footer-content">
+                
+                <ul class="link-list">
+                    <li><a href="http://www.facebook.com/workshopsweden" class="link"><span class="fa fa-facebook footer-symbols"></span> Facebook</a></li>
+                    <li><a href="mailTo:info@workshopsweden.se" class="link"><span><img src="~/Content/symbols/ic_email_white_24dp_1x.png" class="footer-symbols"/></span> info@workshopsweden.se</a></li>
+                    <li class="link"><span><img src="~/Content/symbols/ic_phone_white_24dp_1x.png" class="footer-symbols"/></span> 040-643 50 49</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)

@@ -29,8 +29,12 @@ namespace WebSiteProject
                       "~/Content/MyFontsWebfontsKit.css",
                       "~/Content/site.css"));
 
-            bundles.Add(new StyleBundle("~/Content/css/Font-Awesome").Include(
-                    "~/Content/Font-Awesome/css/font-awesome.min.css"));
+            //bundles.Add(new StyleBundle("~/Content/css/Font-Awesome").Include(
+            //        "~/Content/Font-Awesome/css/font-awesome.min.css",
+            //        "~/Content/Font-Awesome/fonts/fontawesome-webfont.ttf",
+            //        "~/Content/Font-Awesome/fonts/fontawesome-webfont.woff",
+            //        "~/Content/Font-Awesome/fonts/fontawesome-webfont.woff2",
+            //        "~/Content/Font-Awesome/css/font-awesome.css"));
         }
     }
 }
