@@ -68,7 +68,34 @@ body {
     }
 }
 
+@media screen and (max-width: 400px) {
+     body{
+        padding-bottom: 0px;
+    }
+    .footer{
+        margin-top: 130px;
+        position: static;
+        clear: both;
+    }
+
+    a.navbar-title-link{
+        padding-top: 15px;
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+}
+
 @media screen and (max-width: 320px) {
+
+    body{
+        padding-bottom: 0px;
+    }
+    .footer{
+        margin-top: 30px;
+        position: static;
+        clear: both;
+    }
+
     a.navbar-title-link{
         padding-top: 15px;
         padding-left: 0px;
